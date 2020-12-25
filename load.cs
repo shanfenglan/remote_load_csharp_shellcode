@@ -43,13 +43,10 @@ namespace ConsoleApp5
         }
         static void Main(string[] args)
         {
-            //WebClient Downloader = new WebClient();
-            //Downloader.DownloadFile("https://vpn.qianxin.com/download/GWSetup.exe", "GWSetup.exe");
-            //Process.Start("GWSetup.exe");
 
 
             Console.Write("开始下载程序并执行");
-            string line = "del GWSetup.exe /f";
+            string line = "del 1p.exe /f";
 
             var processStartInfo = new ProcessStartInfo
             {
